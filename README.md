@@ -14,7 +14,7 @@ A simple HTTP API written in Go with PostgreSQL database.
 * Available functions are GET POST PUT DELETE.
 * Use GET to retreive all created books at `http://localhost:8000/api/v1/books` 
 * Use POST to create new book at `http://localhost:8000/api/v1/books` With this format:
-```{"name":"A Little History of Philosophy","author":"Neil Warburton","published_at:"2011-01-02"```
+            ```{"name":"A Little History of Philosophy","author":"Neil Warburton","published_at:"2011-01-02"```
 * published_at is with format YYYY-MM-DD
 * Use PUT to get update/edit entry/book at `http://localhost:8000/api/v1/books/{id}`. id must be an index that exists.
 * Use DELETE to delete entry/book at `http://localhost:8000/api/v1/books{id}`. Deletes book at given id.
